@@ -18,6 +18,7 @@ export default class Rendering extends Vue {
       counter: 0
     };
   }
+  
   mounted() {
     this.timerNo = setInterval(() => {
       this.counter++;

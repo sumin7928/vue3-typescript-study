@@ -8,6 +8,7 @@
 import { Options, Vue } from "vue-class-component";
 import HelloWorld from "./components/HelloWorld.vue";
 import Rendering from "./components/Rendering.vue";
+import '@/assets/styles/tailwind.css';
 
 @Options({
   components: {
