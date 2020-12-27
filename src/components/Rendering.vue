@@ -1,6 +1,6 @@
 <template>
   <h1>Timer Example</h1>
-  <div id="counter">
+  <div class="counter">
     Counter: {{ counter }}
   </div>
   <button v-on:click="stopTimer">Stop Timer</button>
